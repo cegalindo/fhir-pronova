@@ -1,0 +1,205 @@
+[
+  {
+    "id" : "CSEstadoCivil",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSEstadoCivil",
+    "version" : "0.1.0",
+    "name" : "CSEstadoCivil"
+  },
+  {
+    "id" : "CSIdentidadGenero",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "CSIdentidadGenero"
+  },
+  {
+    "id" : "CSOcupaciones",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSOcupaciones",
+    "version" : "0.1.0",
+    "name" : "CSOcupaciones"
+  },
+  {
+    "id" : "CSOcupacionesDet",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSOcupacionesDet",
+    "version" : "0.1.0",
+    "name" : "CSOcupacionesDet"
+  },
+  {
+    "id" : "CSPuebloIndigena",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSPuebloIndigena",
+    "version" : "0.1.0",
+    "name" : "CSPuebloIndigena"
+  },
+  {
+    "id" : "CSReligion",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSReligion",
+    "version" : "0.1.0",
+    "name" : "CSReligion"
+  },
+  {
+    "id" : "CSSexoBiologico",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSSexoBiologico",
+    "version" : "0.1.0",
+    "name" : "CSSexoBiologico"
+  },
+  {
+    "id" : "CSUCursoAprobado",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSUCursoAprobado",
+    "version" : "0.1.0",
+    "name" : "CSUCursoAprobado"
+  },
+  {
+    "id" : "CSUNivelAprob",
+    "type" : "CodeSystem",
+    "url" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSUNivelAprob",
+    "version" : "0.1.0",
+    "name" : "CSUNivelAprob"
+  },
+  {
+    "id" : "fhir.pronova.his",
+    "type" : "ImplementationGuide",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ImplementationGuide/fhir.pronova.his",
+    "version" : "0.1.0",
+    "name" : "ProHis"
+  },
+  {
+    "id" : "Educacion",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/Educacion",
+    "version" : "0.1.0",
+    "name" : "Educacion"
+  },
+  {
+    "id" : "IdentidadGenero",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/IdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "IdentidadGenero"
+  },
+  {
+    "id" : "NivelInstrucion",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/NivelInstrucion",
+    "version" : "0.1.0",
+    "name" : "NivelIntruccion"
+  },
+  {
+    "id" : "NombreSocial",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/NombreSocial",
+    "version" : "0.1.0",
+    "name" : "NombreSocial"
+  },
+  {
+    "id" : "ObsPesoPediatrico",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/ObsPesoPediatrico",
+    "version" : "0.1.0",
+    "name" : "ObsPesoPediatrico"
+  },
+  {
+    "id" : "Ocupaciones",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/Ocupaciones",
+    "version" : "0.1.0",
+    "name" : "Ocupaciones"
+  },
+  {
+    "id" : "PacienteHLF",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/PacienteHLF",
+    "version" : "0.1.0",
+    "name" : "PacienteHLF"
+  },
+  {
+    "id" : "PueblosIndigenas",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/PueblosIndigenas",
+    "version" : "0.1.0",
+    "name" : "PueblosIndigenas"
+  },
+  {
+    "id" : "ReligionesCultos",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/ReligionesCultos",
+    "version" : "0.1.0",
+    "name" : "ReligionesCultos"
+  },
+  {
+    "id" : "SexoNacimiento820",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/SexoNacimiento820",
+    "version" : "0.1.0",
+    "name" : "SexoNacimiento820"
+  },
+  {
+    "id" : "SexoReg",
+    "type" : "StructureDefinition",
+    "url" : "http://pronovasalud.cl/fhir/prohis/StructureDefinition/SexoReg",
+    "version" : "0.1.0",
+    "name" : "SexoReg"
+  },
+  {
+    "id" : "VSIdentidadGenero",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "VSIdentidadGenero"
+  },
+  {
+    "id" : "VSOcupaciones",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSOcupaciones",
+    "version" : "0.1.0",
+    "name" : "VSOcupaciones"
+  },
+  {
+    "id" : "VSOcupacionesDet",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSOcupacionesDet",
+    "version" : "0.1.0",
+    "name" : "VSOcupacionesDet"
+  },
+  {
+    "id" : "VSPuebloIndigena",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSPuebloIndigena",
+    "version" : "0.1.0",
+    "name" : "VSPuebloIndigena"
+  },
+  {
+    "id" : "VSReligion",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSReligion",
+    "version" : "0.1.0",
+    "name" : "VSReligion"
+  },
+  {
+    "id" : "VSSexoBiologico",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSSexoBiologico",
+    "version" : "0.1.0",
+    "name" : "VSSexoBiologico"
+  },
+  {
+    "id" : "VSUCursoAprobado",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSUCursoAprobado",
+    "version" : "0.1.0",
+    "name" : "VSUCursoAprobado"
+  },
+  {
+    "id" : "VSUNivelAprob",
+    "type" : "ValueSet",
+    "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSUNivelAprob",
+    "version" : "0.1.0",
+    "name" : "VSUNivelAprob"
+  }
+]
