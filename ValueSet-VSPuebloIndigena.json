@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSPuebloIndigena",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSPuebloIndigena.html\"><code>http://pronovasalud.cl/fhir/prohis/CodeSystem/CSPuebloIndigena</code></a></li></ul></div>"
+  },
+  "url" : "http://pronovasalud.cl/fhir/prohis/ValueSet/VSPuebloIndigena",
+  "version" : "0.1.0",
+  "name" : "VSPuebloIndigena",
+  "title" : "Pueblo Indígena u Originarioi",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "ProNovaSalud",
+  "contact" : [{
+    "name" : "ProNovaSalud",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "www.pronovasalud.cl"
+    },
+    {
+      "system" : "email",
+      "value" : "cesar.galindo@uv.cl"
+    }]
+  }],
+  "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://pronovasalud.cl/fhir/prohis/CodeSystem/CSPuebloIndigena"
+    }]
+  }
+}
